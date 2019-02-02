@@ -30,8 +30,13 @@ class Card extends Component {
       return (
         <div className="card">
           <div key={element.id}>
+          <h1>
             {element.title}
-            {console.log(element.title)}
+          </h1>
+          <div className="circle">
+                {element.style}
+            
+           </div>
           </div>
         </div>
       );
