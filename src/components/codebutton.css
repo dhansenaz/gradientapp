@@ -1,0 +1,12 @@
+.code-button {
+    margin-top:20px;
+    font-family: 'montserrat';
+    text-transform: uppercase;
+    background:none;
+    border:none;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+.code-button:hover {
+    cursor: pointer;
+}

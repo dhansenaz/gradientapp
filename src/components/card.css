@@ -1,0 +1,78 @@
+.card-container {
+    position: absolute;
+    top: 25%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-gap: 50px;
+    padding-top:25px;
+    padding-bottom: 200px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    width: 280px;
+    height: 380px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgb(56, 56, 56);
+  
+  }
+  .card h1, h3 {
+      font-family: 'montserrat';
+      text-transform: uppercase;
+  }
+  .circle {
+    margin: 0 auto;
+    padding: 0;
+    width: 225px;
+    height: 225px;
+    border-radius: 100%;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  }
+  .circle2 {
+      margin: 0 auto;
+      padding: 0;
+      width: 225px;
+      height: 225px;
+      border-radius: 100%;
+      background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    }
+    .circle3 {
+      margin: 0 auto;
+      padding: 0;
+      width: 225px;
+      height: 225px;
+      border-radius: 100%;
+      background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+    }
+    .circle4 {
+      margin: 0 auto;
+      padding: 0;
+      width: 225px;
+      height: 225px;
+      border-radius: 100%;
+      background-image: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);
+    }
+    .circle5 {
+      margin: 0 auto;
+      padding: 0;
+      width: 225px;
+      height: 225px;
+      border-radius: 100%;
+      background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+      background-blend-mode: multiply;
+    }
+    .circle6 {
+      margin: 0 auto;
+      padding: 0;
+      width: 225px;
+      height: 225px;
+      border-radius: 100%;
+      background-image: linear-gradient(to top, #e14fad 0%, #f9d423 100%);
+    }
+  
