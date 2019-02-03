@@ -33,8 +33,7 @@ class Card extends Component {
           <h1>
             {element.title}
           </h1>
-          <div className="circle">
-                {element.style}
+          <div className="circle" >
             
            </div>
           </div>
