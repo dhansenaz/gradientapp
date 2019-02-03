@@ -37,6 +37,7 @@ class Card extends Component {
             
            </div>
           </div>
+          <GetCodeButton />
         </div>
       );
     });
