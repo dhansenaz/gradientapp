@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import CssCircle from '../components/CssCircle'
 import "./card.css";
 import GetCodeButton from "../components/GetCodeButton";
 import axios from "axios";
@@ -26,15 +26,16 @@ class Card extends Component {
   }
 
   render() {
+      
     let cards = this.state.allGradients.map(element => {
       return (
         <div className="card">
           <div key={element.id}>
-          <h1>
+          <h1 >
             {element.title}
           </h1>
-          <div className="circle" >
-            
+          <div className='circle'>
+            <CssCircle />
            </div>
           </div>
           <GetCodeButton />
