@@ -1,0 +1,8 @@
+.circle {
+    margin: 0 auto;
+    padding: 0;
+    width: 225px;
+    height: 225px;
+    border-radius: 100%;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  }

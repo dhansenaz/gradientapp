@@ -9,10 +9,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        {/* <div className="card-container"> */}
           <Card />
         </div>
-      // </div>
     );
   }
 }
