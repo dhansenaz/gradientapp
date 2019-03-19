@@ -32,6 +32,10 @@ class Card extends Component {
           <div key={element.id}>
             <h1>{element.title}</h1>
           </div>
+          <div>
+            <CssCircle />
+          </div>
+
           <GetCodeButton />
         </div>
       );

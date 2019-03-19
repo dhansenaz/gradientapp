@@ -1,4 +1,3 @@
-
 import React, { Component } from "react";
 import "./App.css";
 import Header from "./components/Header";
@@ -9,13 +8,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-          <Card />
-        </div>
-        
+        <Card />
+      </div>
     );
   }
 }
 
 export default App;
-
-
