@@ -32,19 +32,14 @@ class Card extends Component {
           <div key={element.id}>
             <h1>{element.title}</h1>
             <p>{element.style}</p>
-            
           </div>
-          <div>
-            {/* <CssCircle /> */}
-          </div>
+          <div>{/* <CssCircle /> */}</div>
 
           <GetCodeButton />
         </div>
       );
     });
-    return <div>
-    {cards}
-    </div>;
+    return <div>{cards}</div>;
   }
 }
 

@@ -1,21 +1,32 @@
-import React, { Component } from 'react';
-import codebutton from '../components/codebutton.css'
+import React, { Component } from "react";
+import "../components/codebutton.css";
+import axios from 'axios'
 
+export default class GetCodeButton extends Component {
+  constructor() {
+    super();
 
-export default class GetCodeButton extends Component  {
-    constructor () {
-        super()
-        
-        this.state = {
+    this.state = {
+        style:''
+    };
 
-
-        }
-
-    }
-    render () {
-        return(
-        <div>
-            <button className='code-button'>GET CODE</button>
-        </div>
-        )}
+  }
+   componentDidMount() {
+    axios
+      .get("/api/gradients")
+      .then(response => {
+        console.log(response);
+        this.setState(() => ({ style: response.data.style }));
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  }
+  render() {
+    return (
+      <div>
+        <button onClick={this.getCode} className="code-button">GET CODE</button>
+      </div>
+    );
+  }
 }
