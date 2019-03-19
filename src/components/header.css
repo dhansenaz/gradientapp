@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+/* @import url("https://fonts.googleapis.com/css?family=Dancing+Script"); */
 
 .header-container {
   margin:0 auto;
-  /* margin-top: 50px; */
   position: relative;
   display: flex;
   justify-content: center;
@@ -21,9 +20,9 @@
     #8d0b93 50%,
     #321575 100%
   );
-  top:50%;
+  /* top:50%;
   left:50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%); */
 }
 .gradient-text {
 z-index: 1;
