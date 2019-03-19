@@ -39,7 +39,7 @@ class Card extends Component {
         </div>
       );
     });
-    return <div>{cards}</div>;
+    return <div className='card-container'>{cards}</div>;
   }
 }
 

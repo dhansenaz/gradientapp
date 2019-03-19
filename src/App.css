@@ -1,6 +1,0 @@
-.card-container {
-  display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-  justify-content: center;
-  grid-gap: 50px;
-}
