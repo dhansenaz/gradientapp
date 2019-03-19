@@ -25,9 +25,9 @@ class CssCircle extends Component {
 
   render() {
     let circle = this.state.gradientCss.map(element => {
-      return <div className="circle">{element.style}</div>;
+      return <div>{element.style}</div>;
     });
-    return <div>{circle}</div>;
+    return <div className='circle'>{circle}</div>;
   }
 }
 
