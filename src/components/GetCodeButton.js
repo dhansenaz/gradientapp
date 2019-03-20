@@ -1,17 +1,16 @@
 import React, { Component } from "react";
 import "../components/codebutton.css";
-import axios from 'axios'
+import axios from "axios";
 
 export default class GetCodeButton extends Component {
   constructor() {
     super();
 
     this.state = {
-        style:''
+      style: []
     };
-
   }
-   componentDidMount() {
+  componentDidMount() {
     axios
       .get("/api/gradients")
       .then(response => {
@@ -25,7 +24,9 @@ export default class GetCodeButton extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.getCode} className="code-button">GET CODE</button>
+        <button onClick={this.getCode} className="code-button">
+          GET CODE
+        </button>
       </div>
     );
   }

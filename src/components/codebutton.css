@@ -15,5 +15,7 @@
     cursor: pointer;
     color:rgb(0, 153, 255);
     transition: ease-in-out 1s;
+    box-shadow: 0 0px 2px 0px rgb(0, 153, 255);
+    
     
 }

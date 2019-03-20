@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import CssCircle from "../components/CssCircle";
 import "./card.css";
 import GetCodeButton from "../components/GetCodeButton";
 import axios from "axios";
@@ -33,13 +32,12 @@ class Card extends Component {
             <h1>{element.title}</h1>
             <p>{element.style}</p>
           </div>
-          <div>{/* <CssCircle /> */}</div>
 
           <GetCodeButton />
         </div>
       );
     });
-    return <div className='card-container'>{cards}</div>;
+    return <div className="card-container">{cards}</div>;
   }
 }
 
