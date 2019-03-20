@@ -30,6 +30,22 @@ let gradients = [
     style:
       "background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);",
     button: "get code"
+  },
+  {
+    id: 5,
+    category: "grey",
+    title: "eclipse",
+    style:
+      "background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);",
+    button: "get code"
+  },
+  {
+    id: 6,
+    category: "purple",
+    title: "plum sky",
+    style:
+      "background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);",
+    button: "get code"
   }
 ];
 

@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="header-container">
       <div className="logo-circle" />
-      <div className="gradient-text">Gradients</div>
+      <div className="gradient-text">GRADIENTS</div>
     </div>
   );
 };
