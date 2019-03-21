@@ -20,7 +20,7 @@ export default class GetCodeButton extends Component {
     if (!this.state.show) {
       display = (
         <button onClick={this.showCode} className="code-button">
-          GET CODE
+          SEE CODE
         </button>
       );
     }
