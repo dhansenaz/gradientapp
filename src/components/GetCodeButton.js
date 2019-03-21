@@ -1,32 +1,31 @@
 import React, { Component } from "react";
 import "../components/codebutton.css";
-import axios from "axios";
 
 export default class GetCodeButton extends Component {
   constructor() {
     super();
 
     this.state = {
-      style: []
+      show: false
     };
+    this.showCode = this.showCode.bind(this)
   }
-  componentDidMount() {
-    axios
-      .get("/api/gradients")
-      .then(response => {
-        console.log(response);
-        this.setState(() => ({ style: response.data.style }));
-      })
-      .catch(error => {
-        console.log(error);
-      });
+
+  showCode() {
+    this.setState({show:true})
   }
+  
   render() {
+        
+        let display = <p>background-image:{this.props.gradient.style};</p>;
+        if (!this.state.show){
+          display = ( <button onClick={this.showCode} className="code-button">
+          GET CODE
+        </button>)
+        }
     return (
       <div>
-        <button onClick={this.getCode} className="code-button">
-          GET CODE
-        </button>
+       {display}
       </div>
     );
   }
