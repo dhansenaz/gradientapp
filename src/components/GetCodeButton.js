@@ -8,25 +8,22 @@ export default class GetCodeButton extends Component {
     this.state = {
       show: false
     };
-    this.showCode = this.showCode.bind(this)
+    this.showCode = this.showCode.bind(this);
   }
 
   showCode() {
-    this.setState({show:true})
+    this.setState({ show: true });
   }
-  
+
   render() {
-        
-        let display = <p>background-image:{this.props.gradient.style};</p>;
-        if (!this.state.show){
-          display = ( <button onClick={this.showCode} className="code-button">
+    let display = <p>background-image:{this.props.gradient.style};</p>;
+    if (!this.state.show) {
+      display = (
+        <button onClick={this.showCode} className="code-button">
           GET CODE
-        </button>)
-        }
-    return (
-      <div>
-       {display}
-      </div>
-    );
+        </button>
+      );
+    }
+    return <div>{display}</div>;
   }
 }
