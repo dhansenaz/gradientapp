@@ -31,9 +31,8 @@ class Card extends Component {
           <div key={element.id}>
             <h1>{element.title}</h1>
           </div>
-        <div className='circle'style={{backgroundImage:element.style}}>
-        </div>
-          <GetCodeButton gradient={element}/>
+          <div className="circle" style={{ backgroundImage: element.style }} />
+          <GetCodeButton gradient={element} />
         </div>
       );
     });
