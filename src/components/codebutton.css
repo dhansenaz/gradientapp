@@ -16,3 +16,17 @@
   transition: ease-in-out 1s;
   box-shadow: 0 0px 2px 0px rgb(0, 153, 255);
 }
+.css-code{
+    font-size: 15px;
+    padding-top:25px;
+    height:75px;
+    transition: all 2s ease;
+    
+}
+.fadein-appear {
+    opacity: 0.04;
+ }
+ .fadein-appear.example-appear-active {
+    opacity: 2;
+    transition: opacity 50s ease-in;
+ }

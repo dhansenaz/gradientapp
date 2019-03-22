@@ -4,7 +4,6 @@ import "../components/codebutton.css";
 export default class GetCodeButton extends Component {
   constructor() {
     super();
-
     this.state = {
       show: false
     };
@@ -14,9 +13,8 @@ export default class GetCodeButton extends Component {
   showCode() {
     this.setState({ show: true });
   }
-
   render() {
-    let display = <p>background-image:{this.props.gradient.style};</p>;
+    let display = <div>background-image:{this.props.gradient.style};</div>;
     if (!this.state.show) {
       display = (
         <button onClick={this.showCode} className="code-button">
@@ -24,6 +22,6 @@ export default class GetCodeButton extends Component {
         </button>
       );
     }
-    return <div>{display}</div>;
+    return <div className="css-code">{display}</div>;
   }
 }
