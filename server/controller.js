@@ -127,7 +127,7 @@ let gradients = [
   {
     id: 12,
     category: "purple",
-    title: "hawaiian ocean",
+    title: "hawaii ocean",
     style:
       "linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%)",
     button: "get code"
@@ -138,6 +138,21 @@ let gradients = [
     title: "wheat grass",
     style:
       "linear-gradient(to top, #9be15d 0%, #00e3ae 100%)",
+    button: "get code"
+  },
+  {
+    id: 12,
+    category: "green",
+    title: "deep space",
+    style:
+      "linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%)",
+    button: "get code"
+  },{
+    id: 12,
+    category: "green",
+    title: "grey matter",
+    style:
+      "linear-gradient(60deg, #29323c 0%, #485563 100%)",
     button: "get code"
   },
   
