@@ -28,8 +28,8 @@
   position: absolute;
   font-size: 5em;
   font-family: "montserrat";
-  color: rgb(68, 68, 68);
-  text-shadow: 2px 2px 3px grey;
+  color: rgb(32, 32, 32);
+  text-shadow: 1px 1px 10px  rgb(255, 255, 255);
   
   
 }
