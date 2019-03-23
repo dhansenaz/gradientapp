@@ -11,7 +11,7 @@
   align-items: center;
   text-align: center;
   min-width: 275px;
-  min-height: 400px;
+  min-height: 450px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgb(56, 56, 56);
@@ -25,11 +25,18 @@ h3 {
 .circle {
     margin: 0 auto;
     padding: 0;
-    width: 200px;
-    height: 200px;
+    width: 260px;
+    height: 260px;
     border-radius: 100%;
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    transition:ease-in-out 1.5s;
   }
+  .circle:hover {
+    border-radius:0;
+    transition:ease-in-out 1.5s;
+    cursor: pointer;
+  }
+  
 .circle2 {
   margin: 0 auto;
   padding: 0;

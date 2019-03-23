@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import "../components/codebutton.css";
 
-export default class GetCodeButton extends Component {
+export default class CopyCode extends Component {
   constructor() {
     super();
     this.state = {
