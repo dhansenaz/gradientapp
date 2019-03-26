@@ -9,7 +9,6 @@ export default class SeeCodeButton extends Component {
     };
     this.showCode = this.showCode.bind(this);
   }
-
   showCode() {
     this.setState({ show: true });
   }
