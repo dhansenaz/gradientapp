@@ -7,7 +7,7 @@ export default class SeeCodeButton extends Component {
     this.state = {
       show: false,
       code: "",
-      isSwitchOn: false,
+      buttonOn: false,
       text: "COPY CODE"
     };
     this.showCode = this.showCode.bind(this);
@@ -30,7 +30,7 @@ export default class SeeCodeButton extends Component {
     document.execCommand("copy");
     document.body.removeChild(el);
 
-    this.setState({ isSwitchOn: true, text: "COPIED TO CLIPBOARD!" });
+    this.setState({ buttonOn: true, text: "COPIED TO CLIPBOARD!" });
   }
 
   render() {
@@ -40,7 +40,7 @@ export default class SeeCodeButton extends Component {
         <button
           onClick={this.copyCode}
           className={
-            this.state.isSwitchOn ? "code-button-green" : "code-button"
+            this.state.buttonOn ? "code-button-green" : "code-button"
           }
         >
           {this.state.text}
