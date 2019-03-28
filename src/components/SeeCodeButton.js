@@ -1,12 +1,16 @@
 import React, { Component } from "react";
 import "../components/codebutton.css";
 
+let buttonStyle = {
+  backgroundColor:'green'
+}
 export default class SeeCodeButton extends Component {
   constructor() {
     super();
     this.state = {
       show: false,
-      code:''
+      code:'',
+      
     };
     this.showCode = this.showCode.bind(this);
     this.copyCode = this.copyCode.bind(this);
@@ -25,7 +29,14 @@ export default class SeeCodeButton extends Component {
     el.select();
     document.execCommand('copy');
     document.body.removeChild(el);
+    
+      alert("Copied to Clipboard!!");
+    
+    
+    
+   
   }
+  
   render() {
     let display = <div className='fadein'>
      {this.state.code};
@@ -35,7 +46,7 @@ export default class SeeCodeButton extends Component {
       </div>;
     if (!this.state.show) {
       display = (
-        <button onClick={this.showCode} className="code-button">
+        <button onClick={this.showCode } className="code-button">
           SEE CODE
         </button>
         
@@ -44,4 +55,5 @@ export default class SeeCodeButton extends Component {
     return <div className="css-code">{display}</div>;
   }
 }
+
 
