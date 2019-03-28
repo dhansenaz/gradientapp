@@ -30,8 +30,18 @@
   padding-top: 20px;
   padding-bottom: 20px;
   height: 75px;
-  /* transition: all 2s ease; */
 }
 .fadein {
-  animation: 1s 1 normal fadeIn;
+  animation: 1.5s 1 normal fadeIn;
+}
+.code-button-green {
+  margin-top: 20px;
+  font-family: "montserrat";
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid rgb(0, 255, 64);
+  font-size: 1em;
+  font-weight: 600;
+  box-shadow: 0 0px 2px 0px rgb(56, 56, 56);
+  border-radius: 5px;
 }

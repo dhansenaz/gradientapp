@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import "../components/codebutton.css";
 
-let buttonStyle = {
-  backgroundColor: "green"
-};
 export default class SeeCodeButton extends Component {
   constructor() {
     super();
     this.state = {
       show: false,
-      code: ""
+      code: "",
+      isSwitchOn:false,
+      text:"COPY CODE"
     };
     this.showCode = this.showCode.bind(this);
     this.copyCode = this.copyCode.bind(this);
@@ -17,7 +16,7 @@ export default class SeeCodeButton extends Component {
   showCode() {
     this.setState({
       show: true,
-      code: "background-image:" + this.props.gradient.style + ";"
+      code: "background-image:" + this.props.gradient.style 
     });
   }
   copyCode() {
@@ -31,15 +30,17 @@ export default class SeeCodeButton extends Component {
     document.execCommand("copy");
     document.body.removeChild(el);
 
-    alert("Copied to Clipboard!!");
+    // alert("Copied to Clipboard!!");
+    this.setState({isSwitchOn:true, text:"COPIED TO CLIPBOARD!"})
   }
 
   render() {
     let display = (
       <div className="fadein">
         {this.state.code};
-        <button onClick={this.copyCode} className="code-button">
-          COPY CODE
+        <br></br>
+        <button onClick={this.copyCode} className={ this.state.isSwitchOn ? 'code-button-green' : "code-button"  }>
+         {this.state.text}
         </button>
       </div>
     );
