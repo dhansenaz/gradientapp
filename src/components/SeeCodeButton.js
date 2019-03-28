@@ -30,7 +30,7 @@ export default class SeeCodeButton extends Component {
     document.execCommand('copy');
     document.body.removeChild(el);
     
-      alert("Copied to Clipboard!!");
+    alert("Copied to Clipboard!!");
     
     
     
