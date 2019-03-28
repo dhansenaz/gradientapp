@@ -1,13 +1,11 @@
 @keyframes fadeIn {
-  from{
-opacity:0;
+  from {
+    opacity: 0;
   }
-  to{
-opacity:1;
+  to {
+    opacity: 1;
   }
 }
-
-
 
 .code-button {
   margin-top: 20px;
@@ -35,7 +33,5 @@ opacity:1;
   /* transition: all 2s ease; */
 }
 .fadein {
-  animation: 1s 1 normal fadeIn; 
+  animation: 1s 1 normal fadeIn;
 }
-
-
