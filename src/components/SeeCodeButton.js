@@ -40,7 +40,7 @@ export default class SeeCodeButton extends Component {
         <button
           onClick={this.copyCode}
           className={
-            this.state.buttonOn ? "code-button-green" : "code-button"
+            this.state.buttonOn ? "code-button-green fadein" : "code-button"
           }
         >
           {this.state.text}
