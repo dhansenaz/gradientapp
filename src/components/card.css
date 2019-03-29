@@ -1,16 +1,16 @@
 .card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   max-width: 100%;
   justify-content: center;
-  grid-gap: 20px;
+  grid-gap: 25px;
   padding: 20px;
 }
 .card {
   display: grid;
   align-items: center;
   text-align: center;
-  min-width: 275px;
+  min-width: 300px;
   min-height: 450px;
   background-color: #fff;
   border-radius: 10px;
