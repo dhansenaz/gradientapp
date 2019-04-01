@@ -93,7 +93,7 @@ let gradients = [
     button: "get code"
   },
   {
-    id: 12,
+    id: 13,
     category: "purple",
     title: "deep water",
     style:
@@ -101,7 +101,7 @@ let gradients = [
     button: "get code"
   },
   {
-    id: 12,
+    id: 14,
     category: "purple",
     title: "aruba",
     style:
@@ -109,7 +109,7 @@ let gradients = [
     button: "get code"
   },
   {
-    id: 12,
+    id: 15,
     category: "purple",
     title: "cotton",
     style:
@@ -117,7 +117,7 @@ let gradients = [
     button: "get code"
   },
   {
-    id: 12,
+    id: 16,
     category: "purple",
     title: "cotton candy",
     style:
@@ -125,7 +125,7 @@ let gradients = [
     button: "get code"
   },
   {
-    id: 12,
+    id: 17,
     category: "purple",
     title: "hawaii ocean",
     style:
@@ -133,7 +133,7 @@ let gradients = [
     button: "get code"
   },
   {
-    id: 12,
+    id: 18,
     category: "green",
     title: "wheat grass",
     style:
@@ -141,18 +141,100 @@ let gradients = [
     button: "get code"
   },
   {
-    id: 12,
+    id: 19,
     category: "green",
     title: "deep space",
     style:
       "linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%)",
     button: "get code"
-  },{
-    id: 12,
+  },
+  {
+    id: 20,
     category: "green",
     title: "grey matter",
     style:
       "linear-gradient(60deg, #29323c 0%, #485563 100%)",
+    button: "get code"
+  },
+  
+  {
+    id: 21,
+    category: "pink",
+    title: "lipstick",
+    style:
+      "linear-gradient(to top, #ff8a8e 0%, #fecfef 99%, #fecfef 100%)",
+    button: "get code"
+  },
+  {
+    id: 22,
+    category: "purple",
+    title: "designer",
+    style:
+      "linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%)",
+    button: "get code"
+  },
+  {
+    id: 23,
+    category: "blue",
+    title: "calm",
+    style:
+      "linear-gradient(120deg, #a2c4fd 0%, #c3e9fb 100%)",
+    button: "get code"
+  },
+  {
+    id: 24,
+    category: "grey",
+    title: "movie day",
+    style:
+      "linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%)",
+    button: "get code"
+  },
+  {
+    id: 25,
+    category: "pink",
+    title: "raspberry",
+    style:
+      "linear-gradient(120deg, #f093fb 0%, #f5576c 100%)",
+    button: "get code"
+  },
+  {
+    id: 26,
+    category: "red",
+    title: "orchard",
+    style:
+      "linear-gradient(to top, #d199c2 0%, #fef8d7 100%)",
+    button: "get code"
+  },
+  {
+    id: 27,
+    category: "green",
+    title: "happy day",
+    style:
+      "linear-gradient(to top, #37ecba 0%, #72afd3 100%)",
+    button: "get code"
+  },
+  {
+    id: 27,
+    category: "green",
+    title: "aurora",
+    style:
+      "linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%)",
+    button: "get code"
+  },
+  {
+    id: 27,
+    category: "brown",
+    title: "desert sand",
+    style:
+      "linear-gradient(to top, #c79081 0%, #dfa579 100%)",
+    button: "get code"
+  },
+  {
+    id: 27,
+    category: "purple",
+    title: "borealis",
+    style:
+      "linear-gradient(-20deg, #d558c8 0%, #24d292 100%)",
     button: "get code"
   },
   
