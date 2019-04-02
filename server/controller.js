@@ -214,27 +214,27 @@ let gradients = [
     button: "get code"
   },
   {
-    id: 27,
+    id: 28,
     category: "green",
     title: "aurora",
     style:
-      "linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%)",
+      "linear-gradient(to top, #4fb476 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7888 71%, #6c4f63 86%, #432c39 100%)",
     button: "get code"
   },
   {
-    id: 27,
+    id: 29,
     category: "brown",
     title: "desert sand",
     style:
-      "linear-gradient(to top, #c79081 0%, #dfa579 100%)",
+      "linear-gradient(to top, #c79071 0%, #dfa579 100%)",
     button: "get code"
   },
   {
-    id: 27,
+    id: 30,
     category: "purple",
     title: "borealis",
     style:
-      "linear-gradient(-20deg, #d558c8 0%, #24d292 100%)",
+      "linear-gradient(-20deg, #d557c8 0%, #24d292 100%)",
     button: "get code"
   },
   

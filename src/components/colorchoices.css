@@ -1,0 +1,9 @@
+.choices-container{
+    display:flex;
+    height:200px;
+    width:500px;
+    margin:0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
