@@ -1,7 +1,7 @@
 let gradients = [
   {
     id: 1,
-    category: "purple",
+    category: "blue",
     title: "midnight",
     style:
       " linear-gradient(to top, #31cfd0 0%, #330867 100%)",
@@ -71,14 +71,14 @@ let gradients = [
     button: "get code"
   },{
     id: 10,
-    category: "orange",
+    category: "yellow",
     title: "day break",
     style:
       "linear-gradient(to top, #fddb92 0%, #d1fdff 100%)",
     button: "get code"
   },{
     id: 11,
-    category: "purple",
+    category: "orange",
     title: "beach waves",
     style:
       "linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%)",
@@ -86,8 +86,8 @@ let gradients = [
   },
   {
     id: 12,
-    category: "purple",
-    title: "sherbert",
+    category: "pink",
+    title: "sherbet",
     style:
       "linear-gradient(to top, #e8198b 0%, #c7eafd 100%)",
     button: "get code"
@@ -95,14 +95,14 @@ let gradients = [
   {
     id: 13,
     category: "purple",
-    title: "deep water",
+    title: "blue",
     style:
       "linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%)",
     button: "get code"
   },
   {
     id: 14,
-    category: "purple",
+    category: "orange",
     title: "aruba",
     style:
       "linear-gradient(to top, #e14fad 0%, #f9d423 100%)",
@@ -110,7 +110,7 @@ let gradients = [
   },
   {
     id: 15,
-    category: "purple",
+    category: "pink",
     title: "cotton",
     style:
       "linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%)",
@@ -118,7 +118,7 @@ let gradients = [
   },
   {
     id: 16,
-    category: "purple",
+    category: "blue",
     title: "cotton candy",
     style:
       "linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%)",
@@ -126,7 +126,7 @@ let gradients = [
   },
   {
     id: 17,
-    category: "purple",
+    category: "blue",
     title: "hawaii ocean",
     style:
       "linear-gradient(-225deg, #9EFBD3 0%, #57E9F2 48%, #45D4FB 100%)",
@@ -142,7 +142,7 @@ let gradients = [
   },
   {
     id: 19,
-    category: "green",
+    category: "blue",
     title: "deep space",
     style:
       "linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%)",
@@ -150,7 +150,7 @@ let gradients = [
   },
   {
     id: 20,
-    category: "green",
+    category: "grey",
     title: "grey matter",
     style:
       "linear-gradient(60deg, #29323c 0%, #485563 100%)",
@@ -199,7 +199,7 @@ let gradients = [
   },
   {
     id: 26,
-    category: "red",
+    category: "orange",
     title: "orchard",
     style:
       "linear-gradient(to top, #d199c2 0%, #fef8d7 100%)",
@@ -235,6 +235,62 @@ let gradients = [
     title: "borealis",
     style:
       "linear-gradient(-20deg, #d557c8 0%, #24d292 100%)",
+    button: "get code"
+  },
+  {
+    id: 31,
+    category: "red",
+    title: "love",
+    style:
+      "linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%)",
+    button: "get code"
+  },
+  {
+    id: 32,
+    category: "yellow",
+    title: "lemon drop",
+    style:
+      "linear-gradient(to top, #96fbc4 0%, #f9f586 100%)",
+    button: "get code"
+  },
+  {
+    id: 33,
+    category: "red",
+    title: "valentine",
+    style:
+      "linear-gradient(to top, #ff0844 0%, #ffb199 100%)",
+    button: "get code"
+  },
+  {
+    id: 34,
+    category: "red",
+    title: "Cherry",
+    style:
+      "linear-gradient(to top, #c71d6f 0%, #d09693 100%)",
+    button: "get code"
+  },
+  {
+    id: 35,
+    category: "brown",
+    title: "macchiato",
+    style:
+      "linear-gradient(to top, #e6b980 0%, #eacda3 100%)",
+    button: "get code"
+  },
+  {
+    id: 36,
+    category: "brown",
+    title: "earth",
+    style:
+      "linear-gradient(315deg, #772f1a 0%, #f2a65a 74%)",
+    button: "get code"
+  },
+  {
+    id: 37,
+    category: "yellow",
+    title: "yellow",
+    style:
+      "linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%)",
     button: "get code"
   },
   
