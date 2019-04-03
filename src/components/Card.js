@@ -3,28 +3,8 @@ import "./card.css";
 import SeeCodeButton from "../components/SeeCodeButton";
 import axios from "axios";
 
-class Card extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      allGradients: []
-    };
-  }
-  componentDidMount() {
-    axios
-      .get("/api/gradients")
-      .then(response => {
-        console.log(response);
-        this.setState(() => ({ allGradients: response.data }));
-      })
-      .catch(error => {
-        console.log(error);
-      });
-  }
-
-  render() {
-    let cards = this.state.allGradients.map(element => {
+const Card = ({gradients}) => {
+    let cards = gradients.map(element => {
       return (
         <div className="card">
           <div key={element.id}>
@@ -36,7 +16,6 @@ class Card extends Component {
       );
     });
     return <div className="card-container">{cards}</div>;
-  }
 }
 
 
