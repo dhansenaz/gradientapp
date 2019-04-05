@@ -32,6 +32,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <div className='instructions'><h1>Browse the collection or select a color category</h1></div>
+        
         <ColorChoices colorChoices={['all', ...new Set(allGradients.map(grad => grad.category))]} onChoose={cat => this.setCategory(cat)} />
         <div className="card-container">
           <Card gradients={gradients}/>

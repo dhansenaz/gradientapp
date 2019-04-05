@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./card.css";
 import SeeCodeButton from "../components/SeeCodeButton";
-import axios from "axios";
 
 const Card = ({gradients}) => {
     let cards = gradients.map(element => {

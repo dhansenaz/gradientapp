@@ -94,7 +94,7 @@ let gradients = [
   },
   {
     id: 13,
-    category: "purple",
+    category: "blue",
     title: "blue",
     style:
       "linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%)",
