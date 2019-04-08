@@ -8,7 +8,7 @@ import axios from "axios";
 class App extends Component {
   state = {
     allGradients: [],
-    category:'all'
+    category: "all"
   };
   componentDidMount() {
     axios
@@ -22,21 +22,30 @@ class App extends Component {
       });
   }
   setCategory(category) {
-    this.setState({category})
+    this.setState({ category });
   }
   render() {
-    const {category, allGradients} = this.state;
-    const gradients = allGradients
-      .filter(grad => category === 'all' || grad.category === category)
+    const { category, allGradients } = this.state;
+    const gradients = allGradients.filter(
+      grad => category === "all" || grad.category === category
+    );
 
     return (
       <div className="App">
         <Header />
-        <div className='instructions'><h1>Browse the collection or select a color category</h1></div>
-        
-        <ColorChoices colorChoices={['all', ...new Set(allGradients.map(grad => grad.category))]} onChoose={cat => this.setCategory(cat)} />
+        <div className="instructions">
+          <h1>Browse the collection or select a color category</h1>
+        </div>
+
+        <ColorChoices
+          colorChoices={[
+            "all",
+            ...new Set(allGradients.map(grad => grad.category))
+          ]}
+          onChoose={cat => this.setCategory(cat)}
+        />
         <div className="card-container">
-          <Card gradients={gradients}/>
+          <Card gradients={gradients} />
         </div>
       </div>
     );
