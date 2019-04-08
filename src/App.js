@@ -18,7 +18,6 @@ class App extends Component {
         this.setState(() => ({ allGradients: response.data }));
       })
       .catch(error => {
-        console.log(error);
       });
   }
   setCategory(category) {
