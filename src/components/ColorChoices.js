@@ -10,6 +10,7 @@ export default class ColorChoices extends Component {
   render() {
     return (
       <div className="choices-container">
+      
         {this.props.colorChoices.map(color => (
           <button
             className={`code-button-color ${color}`}

@@ -10,10 +10,11 @@
   padding: 40px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 3px 10px rgb(56, 56, 56);
-  border-radius: 10px;
+  border-radius: 0 0 10px 10px;
 }
 .code-button-color {
   margin-top: 10px;
+  height:100px;
   font-family: "montserrat";
   text-transform: uppercase;
   background: none;
