@@ -4,12 +4,14 @@ import "../components/codebutton.css";
 export default class SeeCodeButton extends Component {
   constructor() {
     super();
-    this.state = {
+    
+   this.state = {
       show: false,
       code: "",
       buttonOn: false,
       text: "COPY CODE"
-    };
+    }
+    
     this.showCode = this.showCode.bind(this);
     this.copyCode = this.copyCode.bind(this);
   }
@@ -17,6 +19,14 @@ export default class SeeCodeButton extends Component {
     this.setState({
       show: true,
       code: "background-image:" + this.props.gradient.style
+    });
+  }
+  componentWillReceiveProps() {
+    this.setState ({
+      show: false,
+      code: "",
+      buttonOn: false,
+      text: "COPY CODE"
     });
   }
   copyCode() {

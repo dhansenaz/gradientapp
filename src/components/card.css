@@ -30,11 +30,11 @@ h3 {
   height: 250px;
   border-radius: 100%;
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
-  transition: ease-in-out 1.5s;
+  transition: ease-in-out 1s;
 }
 .circle:hover {
   border-radius: 0;
-  transition: ease-in-out 1.5s;
+  transition: ease-in-out 1s;
   cursor: pointer;
 }
 
