@@ -32,10 +32,11 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <div className="instructions">
+        
+      <div>
+      <div className="instructions">
           <h1>Browse the collection or select a color category</h1>
         </div>
-
         <ColorChoices
           colorChoices={[
             "all",
@@ -43,6 +44,7 @@ class App extends Component {
           ]}
           onChoose={cat => this.setCategory(cat)}
         />
+        </div>
         <div className="card-container">
           <Card gradients={gradients} />
         </div>
