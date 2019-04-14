@@ -12,8 +12,8 @@ export default class ColorChoices extends Component {
       <div className="choices-container">
       
         {this.props.colorChoices.map(color => (
-          <button
-            className={`code-button-color ${color}`}
+          <button style={{backgroundColor:`${color}`}}
+            className={`code-button-color ${color} `}
             onClick={() => this.chooseColor(color)}
           >
             {color}
