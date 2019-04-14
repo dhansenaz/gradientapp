@@ -2,6 +2,7 @@
 body {
   padding:20px;
   margin:30px;
+  box-sizing: border-box;
 }
 .instructions {
   display: flex;
@@ -24,4 +25,9 @@ body {
   text-transform: uppercase;
   font-family: "montserrat";
   text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .instructions {
+    font-size: .5em;
+  }
 }

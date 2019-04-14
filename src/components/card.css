@@ -2,9 +2,9 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   max-width: 100%;
+  /* margin:0 auto; */
   justify-content: center;
   grid-gap: 25px;
-  padding: 20px;
   margin-top:50px;
 }
 .card {
@@ -36,6 +36,12 @@ h3 {
   border-radius: 0;
   transition: ease-in-out 1s;
   cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .card {
+   min-width: 250px;
+  }
+ 
 }
 
 

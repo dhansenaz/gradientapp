@@ -29,6 +29,9 @@
   .gradient-text {
     font-size: 4em;
   }
+  .header-container {
+    padding-bottom: 10px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .gradient-text {
