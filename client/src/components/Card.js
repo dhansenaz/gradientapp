@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./card.css";
-import SeeCodeButton from "../components/SeeCodeButton";
+import "./css/card.css";
+import SeeCodeButton from "./SeeCodeButton";
 
 const Card = ({ gradients }) => {
   let cards = gradients.map(element => {

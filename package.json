@@ -1,32 +1,24 @@
 {
   "name": "gradientapp",
-  "version": "0.1.0",
-  "private": true,
-  "main": "server/server.js",
-  "proxy": "http://localhost:4000",
-  "dependencies": {
-    "axios": "^0.18.0",
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "react": "^16.7.0",
-    "react-addons-css-transition-group": "^15.6.2",
-    "react-bootstrap": "^1.0.0-beta.6",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhansenaz/gradientapp.git"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhansenaz/gradientapp/issues"
+  },
+  "homepage": "https://github.com/dhansenaz/gradientapp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
 }

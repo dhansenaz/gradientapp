@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import "../components/colorchoices.css";
+import "./css/colorchoices.css";
 
 export default class ColorChoices extends Component {
   chooseColor(color) {

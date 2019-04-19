@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../components/codebutton.css";
+import "./css/codebutton.css";
 
 export default class SeeCodeButton extends Component {
   constructor() {
