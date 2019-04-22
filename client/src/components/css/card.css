@@ -5,7 +5,7 @@
   /* margin:0 auto; */
   justify-content: center;
   grid-gap: 25px;
-  margin-top:50px;
+  margin-top: 50px;
 }
 .card {
   display: grid;
@@ -39,9 +39,6 @@ h3 {
 }
 @media only screen and (max-width: 768px) {
   .card {
-   min-width: 250px;
+    min-width: 250px;
   }
- 
 }
-
-
